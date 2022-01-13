@@ -1,12 +1,12 @@
 Lab Report 1 - Week 2
 =====================
-Installing VScode
+1: Installing VScode
 -----------------
 > ![Image](lab1/install.PNG)
 - Go to  [Visual Studio Code's website ](https://code.visualstudio.com)
 - Follow instructions to download and install to your computer
 
-Remotely Connecting
+2: Remotely Connecting
 -------------------
 > ![Image](lab1/remoteconnect.PNG)
 
@@ -18,7 +18,7 @@ Remotely Connecting
     - Note: You can logout anytime with __Ctrl + D__ or running the command __exit__
 
 
-Trying Some Commands
+3: Trying Some Commands
 --------------------
 > ![Image](lab1/commands.PNG)
 - You can try some basic commands
@@ -29,7 +29,7 @@ Trying Some Commands
     - mkdir __specifiedName__- makes a new subdirectory with the specified name in the current directory 
     - cp __file1 file2__ - copies contents of file1 to file2
 
-Moving Files with scp
+4: Moving Files with scp
 ---------------------
 > ![Image](lab1/moving1.PNG)
 > ![Image](lab1/moving2.PNG)
@@ -52,8 +52,8 @@ class WhereAmI {
 
 
 
-Setting an SSH Key
+5: Setting an SSH Key
 ------------------
 
-Optimizing Remote Running
+6: Optimizing Remote Running
 -------------------------
