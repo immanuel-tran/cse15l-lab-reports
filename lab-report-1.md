@@ -10,9 +10,7 @@ Lab Report 1 - Week 2
 2: Remotely Connecting
 -------------------
 > ![Image](lab1/remoteconnect.png)
-
 - First, [Install OpenSSH](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse)
-
 - Then, using your own CSE15L account and Visual Studio, use the ssh command in the terminal 
     - Example: `ssh cs15lwi22XXX@ieng6.ucsd.edu`
 - Say yes to connect and then type your password (nothing will show up because password is hidden)
@@ -54,12 +52,9 @@ class WhereAmI {
 ------------------
 >![Image](lab1/key1.png)
 >![Image](lab1/key2.png)
-
 - Use the command `ssh-keygen` 
     - If on windows follow instructions  [here](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation)
-
 - This creates a pair of files (a public key file called __id_rsa__ and a private key file called __id_rsa.pub__ in your .ssh directory)
-
 - Login to account agian with ssh command then run the command  `mkdir .ssh`. Then you shold be able to ssh or scp without having to input a password
 
 
