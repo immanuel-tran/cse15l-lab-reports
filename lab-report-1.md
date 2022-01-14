@@ -19,7 +19,7 @@ Lab Report 1 - Week 2
 
 3: Trying Some Commands
 --------------------
-> ![Image](lab1/commands.png)
+> ![Image](lab1/commands.PNG)
 - You can try some basic commands
     - cd __specifiedDirectory__ - Take you to the specified directory
     - cd .. - Takes you to the parent directory
