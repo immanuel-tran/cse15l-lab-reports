@@ -1,14 +1,15 @@
 Lab Report 1 - Week 2
 =====================
+
 1: Installing VScode
 -----------------
-> ![Image](lab1/install.PNG)
+> ![Image](lab1/install.png)
 - Go to  [Visual Studio Code's website ](https://code.visualstudio.com)
 - Follow instructions to download and install to your computer
 
 2: Remotely Connecting
 -------------------
-> ![Image](lab1/remoteconnect.PNG)
+> ![Image](lab1/remoteconnect.png)
 
 - First, [Install OpenSSH](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse)
 
@@ -20,7 +21,7 @@ Lab Report 1 - Week 2
 
 3: Trying Some Commands
 --------------------
-> ![Image](lab1/commands.PNG)
+> ![Image](lab1/commands.png)
 - You can try some basic commands
     - cd __specifiedDirectory__ - Take you to the specified directory
     - cd .. - Takes you to the parent directory
@@ -31,8 +32,8 @@ Lab Report 1 - Week 2
 
 4: Moving Files with scp
 ---------------------
-> ![Image](lab1/moving1.PNG)
-> ![Image](lab1/moving2.PNG)
+> ![Image](lab1/moving1.png)
+> ![Image](lab1/moving2.png)
  - Logout of if you are still logged in
  - Create a java file on your computer called WhereAmI.java with the following content: 
 ```
@@ -49,11 +50,21 @@ class WhereAmI {
 - It should ask for a password, type it in then your file should be sucessfully transfered
 
 
-
-
-
 5: Setting an SSH Key
 ------------------
+>![Image](lab1/key1.png)
+>![Image](lab1/key2.png)
+
+- Use the command `ssh-keygen` 
+    - If on windows follow instructions  [here](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation)
+
+- This creates a pair of files (a public key file called __id_rsa__ and a private key file called __id_rsa.pub__ in your .ssh directory)
+
+- Login to account agian with ssh command then run the command  `mkdir .ssh`. Then you shold be able to ssh or scp without having to input a password
+
 
 6: Optimizing Remote Running
 -------------------------
+>![Image](lab1/op.png)
+- You can directly run commands directly on the ewmote sever by adding the it in quotes after the ssh command
+- Additionally you can write multiple commands in one line by seperating them with semicolons
