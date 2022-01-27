@@ -71,3 +71,4 @@ class WhereAmI {
 - Using the information above, after setting up a ssh key and making changes to a local file (or mulitple local files), you should be able to copy it to the remote sever and run it all at once
   - Example: You can run the command `scp WhereAmI.java cs15lwi22asp@ieng6.ucsd.edu:~/; ssh cs15lwi22asp@ieng6.ucsd.edu "javac WhereAmI.java; java WhereAmI"` from the directory the file is in 
 - It will not require you to enter a password
+- You can use copying and pasting as well as the up arrow (to get previous commands) to reduce the amount of keystrokes
