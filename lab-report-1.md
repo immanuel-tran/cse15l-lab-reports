@@ -68,5 +68,5 @@ class WhereAmI {
 
 >![Image](lab1/movingOptimized.png)
 
-- Using the information above, after setting up and ssh key and making changes to a local file (or mulitple local files), you should be able to copy it to the remote sever and run it all at once
+- Using the information above, after setting up a ssh key and making changes to a local file (or mulitple local files), you should be able to copy it to the remote sever and run it all at once
 - It will not require you to enter a password
