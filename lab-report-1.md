@@ -62,6 +62,7 @@ class WhereAmI {
 6: Optimizing Remote Running
 -------------------------
 >![Image](lab1/op.png)
+
 - You can directly run commands directly on the remote sever by adding the it in quotes after the `ssh` command
 - Additionally you can write multiple commands in one line by seperating them with semicolons
 
