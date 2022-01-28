@@ -6,7 +6,7 @@ Bug 1
 Code Change: 
 > ![Image](lab2/Fix4.PNG)
 
-Reason For Change: [Test File 6](https://github.com/immanuel-tran/CSE15L-RoseateSpoonbill/blob/main/test-file4.md)
+Reason For Change: [Test File 4](https://github.com/immanuel-tran/CSE15L-RoseateSpoonbill/blob/main/test-file4.md)
 
 Symptom:
 > ![Image](lab2/Symp4.PNG) 
