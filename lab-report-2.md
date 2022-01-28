@@ -45,7 +45,7 @@ Symptom:
 
 Explaination:
 - Although we fixed the issue with invalid links, we still had another bug.
-- If the code detected and invalid link, it would run into a `break;` statement.
+- If the code detected and invalid link, it would run into a break statement.
 - As a result, a symptom of this bug was that if there was a valid link after an invalid one the code would be unable to detect it.
 - In the modified version of test file 6 with a valid link, the symptom was that the code would still return an empty ArrayList instead of the valid link. [https://something.com] should have been returned.
 - Our solution was that, instead of breaking after a "(' was not detected after a "]", we would try doing the opposite and check if the there was a paranthesis after the bracket. This would allow us to add a valid link even after an invalid one.
