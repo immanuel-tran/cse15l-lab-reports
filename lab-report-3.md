@@ -15,15 +15,15 @@ Streamlining ssh Configuration
 
     > ![Image](lab3/vimedit.PNG)
 
-- To edit press "I" and insert the follow:
+- To edit press "I" and insert the following:
 ```
 Host  ieng6 (alias)
     HostName ieng6.ucsd.edu
     User cs15lwi22zzz (username)
 ```
-- Enter you own username and you can choose an alias you want to login with. In my case, I stuck with ieng6.
+- Enter your own username and you can choose an alias to login with. In my case, I stuck with ieng6.
 
-- Additonally, if it does not work, you can add the follow to explicitly refer to a id_rsa file.
+- Additonally, if it does not work, you can add the following to explicitly refer to a id_rsa file.
 
 ```
 Host ieng6
@@ -32,7 +32,7 @@ Host ieng6
     IdentityFile ~/.ssh/id_rsa
 ```
 
-- After you are finished editing press "esc" than type ":wq" and enter finish writing and quit.
+- After you are finished editing press "esc" than type ":wq" and enter to finish writing and quit.
 - Now you should be able to `ssh` with just your alias.
     > ![Image](lab3/sshlogin.PNG)
 
