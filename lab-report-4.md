@@ -57,7 +57,7 @@ Reviewed Group:
         >![Image](lab4/OtherSnip1Fail.PNG)
 
 Fix in Less Than 10 Lines:
-- Both our group and the reviewed group had this snippet fail when tested. I believe that this can possibly be fixed by changing how the code handle backticks. Specfically, in this case, it should not count brackets within backticks. Somthing like if statement to check if there is a backtick and move to the ending backtick can work.
+- Both our group and the reviewed group had Snippet 1 fail when tested. I believe that this can possibly be fixed by changing how the code handle backticks. Specfically, in this case, it should not count brackets within backticks. Somthing like if statement to check if there is a backtick and move to the ending backtick can work.
 
 
 Snippet 2
@@ -107,7 +107,7 @@ Reviewed Group:
         >![Image](lab4/OtherSnip2Fail.PNG)
 
 Fix in Less Than 10 Lines:
-- Both our group and the reviewed group had this snippet fail when tested. I believe that this can possibly be fixed by changing the code so it understands nested parenthesis. I think something like a loop that checks for nested parenthesis could be possible in under 10 lines.
+- Both our group and the reviewed group had Snippet 2 fail when tested. I believe that this can possibly be fixed by changing the code so it understands nested parenthesis. I think something like a loop that checks for nested parenthesis could be possible in under 10 lines.
 
 
 
@@ -178,4 +178,4 @@ Reviewed group:
 
 Fix in Less Than 10 Lines:
 Fix in Less Than 10 Lines:
-- Both our group and the reviewed group had this snippet fail when tested. I believe that this could possibly have a fix by changing how the code handles empty lines. Something like a if statment, to check if there is empty lines inbetween and make the link invalid, may be possible in under 10 lines of code. 
+- Both our group and the reviewed group had Snippet 3 fail when tested. I believe that this could possibly have a fix by changing how the code handles empty lines. Something like a if statment, to check if there is empty lines inbetween and make the link invalid, may be possible in under 10 lines of code. 
