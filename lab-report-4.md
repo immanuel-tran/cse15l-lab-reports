@@ -177,5 +177,4 @@ Reviewed group:
         >![Image](lab4/OtherSnip3Fail.PNG)
 
 Fix in Less Than 10 Lines:
-Fix in Less Than 10 Lines:
 - Both our group and the reviewed group had Snippet 3 fail when tested. I believe that this could possibly have a fix by changing how the code handles empty lines. Something like a if statment, to check if there is empty lines inbetween and make the link invalid, may be possible in under 10 lines of code. 
