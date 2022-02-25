@@ -146,7 +146,7 @@ My group:
 
 - Code to Test Snippet 3:  
     ```
-        @Test
+    @Test
     public void snipTest3() throws IOException {
         Path fileName = Path.of("snip3.md");
 	    String contents = Files.readString(fileName);
@@ -163,7 +163,7 @@ Reviewed group:
 
 - Code to Test Snippet 3:  
     ```
-        @Test
+    @Test
     public void snipTest3() throws IOException {
         Path fileName = Path.of("snip3.md");
 	    String contents = Files.readString(fileName);
