@@ -14,11 +14,11 @@ Content:
 [a](<b)c>)
 ```
 - Expected Output:
+    >![Image](lab5/ExpectedOut1.PNG)
+    
     ```
     [<b]
     ```
-    - Preview:
-        >![Image](lab5/ExpectedOut1.PNG)
 
 - Actual Ouput:
     - RoseateSpoonbill:
@@ -41,11 +41,11 @@ Content:
 [link [bar](/uri)
 ```
 - Expected Output:
+    >![Image](lab5/ExpectedOut2.PNG)
+
     ```
     [/uri]
     ```
-    - Preview:
-        >![Image](lab5/ExpectedOut2.PNG)
     
 - Actual Ouput:
     - RoseateSpoonbill:
